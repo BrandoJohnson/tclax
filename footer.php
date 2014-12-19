@@ -41,7 +41,7 @@
 
 
         <div class="col-lg-4 scroll-top">
-            <a href="#wrap" class="scroll" title="<?php esc_attr_e( 'scroll to top', 'impulse-press' ); ?>"><?php _e( '<span class="glyphicon glyphicon-chevron-up"></span>', 'impulse-press' ); ?></a>
+            <a href="#wrapsit" class="scroll" title="<?php esc_attr_e( 'scroll to top', 'impulse-press' ); ?>"><?php _e( '<span class="glyphicon glyphicon-chevron-up"></span>', 'impulse-press' ); ?></a>
         </div>
 
 

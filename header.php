@@ -33,10 +33,46 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>"/>
 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body <?php body_class(); ?>>
+<div class="container" id="wrapsit">
+    <div class="row">
+        <div class="logohome col-lg-12">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        <a href="/"><img src="<?php bloginfo('template_directory') ?>/images/logo2.png" alt="" align="left"/></a><br/>
+                    </p>
+                    <h1>TEAM CENTRAL <br/>ELITE LACROSSE</h1>
+                </div>
+                <div class="col-lg-6 well hero">
+                    <div class="row">
+                        <div class="col-sm-3 hero-top">
+                            <h3>Announcements</h3>
+                            <p>Practice is cancelled for today 9/21/14 because of inclement weather.</p>
+                        </div>
+                        <div class="col-sm-3 hero-main">
+                            <div class="hero-3">
+                                <a href="#">About Us</a> | <a href="#">Links</a> | <a href="#">Contact</a>
+                            </div>
+                            <div class="hero-2">
+                                <a class="btn btn-social-icon btn-facebook">
+                                    <i class="fa fa-facebook fa-2x"></i>
+                                </a>
+                                <a class="btn btn-social-icon btn-twitter">
+                                    <i class="fa fa-twitter fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="wrap">
     <!-- Navbar -->
@@ -65,6 +101,7 @@
                             <?php } ?>
                         </div>
                     </div>
+
                     <div class="navbar-collapse collapse">
                         <?php
                             $walker = has_nav_menu( 'top-menu' ) ? new wp_bootstrap_navwalker() : new IP_Bootstrap_Page_Walker();
@@ -72,19 +109,12 @@
                                 'theme_location' => 'top-menu',
                                 'depth' => 2,
                                 'container' => false,
-                                'menu_class' => 'nav navbar-nav',
+                                'menu_class' => 'nav navbar-nav homenav1',
                                 'fallback_cb' => 'impulse_press_page_menu',
                                 'walker' => $walker,
                             );
                             wp_nav_menu($args);
                         ?>
-
-
-                        <div class="navbar-search">
-                            <?php
-                                 get_search_form();
-                             ?>
-                        </div>
 
 
                     </div>

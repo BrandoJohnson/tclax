@@ -3641,7 +3641,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #CC0000;
+  background-color: #ffffff;
 }
 
 .nav-stacked > li {
@@ -4120,14 +4120,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #FFFFFF;
-  background-color: #CC0000;
+  background-color: #e00000;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #FFFFFF;
-  background-color: #CC0000;
+  background-color: #e00000;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
@@ -5897,6 +5897,7 @@ body.modal-open,
 
 .carousel-caption .btn {
   text-shadow: none;
+  margin-top: -10em;
 }
 
 @media screen and (min-width: 768px) {

@@ -71,7 +71,7 @@ code {
   padding: 15px;
   border-style: solid;
   border-width: 2px;
-  border-color: #B2AFE8;
+  border-color: #CC0000;
   border-radius: 5px;
 }
 .form-submit input#submit {
@@ -94,8 +94,8 @@ code {
   -o-user-select: none;
   user-select: none;
   color: #FFFFFF;
-  background-color: #b2afe8;
-  border-color: #908dbd;
+  background-color: #CC0000;
+  border-color: #CC0000;
 }
 /*==================================================================================================================================================================
   HEADER
@@ -173,6 +173,7 @@ a:hover {
 }
 .navigation {
   padding: 10px;
+  color: #CC0000;
 }
 .post {
   margin-bottom: 25px;
@@ -184,11 +185,11 @@ a:hover {
   background-color: #F3F3F3;
   padding: 30px;
   font-size: 88px;
-  color: #908DBD;
+  color: #CC0000;
   transition: all 0.50s ease 0s;
 }
 .main-widget:hover {
-  background-color: #908DBD;
+  background-color: #CC0000;
   padding: 30px;
   font-size: 98px;
   color: #FFF;
@@ -363,9 +364,9 @@ a:hover {
 }
 /* Carousel base class */
 .carousel {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   /* Negative margin to pull up carousel. 115px is roughly margins and height of navbar. */
-  margin-top: -10px;
+  margin-top: 1px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -649,6 +650,59 @@ img.wp-smiley {
 .gallery-meta .camera {
   display: block;
 }
-.nav {
-  color: #003300;
+a:link {
+  color: #c9302c;
+}
+.logohome {
+  margin-bottom: 1.5em;
+}
+.navbar {
+  background-color: #CC0000;
+  margin-top: -1.1em;
+}
+.fixed_width {
+  height: 315px;
+  width: 100%;
+  max-height: 315px;
+  max-width: 1200px;
+}
+.carousel .carousel-inner {
+  height: 315px !important;
+  margin-top: -1.47em;
+  margin-bottom: -0.6;
+}
+.hero {
+  margin-top: 1.5em;
+}
+.hero-2 {
+  padding: 5px;
+  text-align: right;
+  padding-right: 5px;
+}
+.hero-3 {
+  text-align: right;
+  padding: 5px;
+}
+.btn-social-icon {
+  padding: 5px;
+  background-color: #CC0000;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+}
+.hero-text {
+  padding-right: 1em !important;
+}
+.hero-main {
+  width: 50% !important;
+}
+.hero-top {
+  width: 50% !important;
+  margin-top: -1em;
+}
+.well {
+  border: 1px solid #f3f3f3;
+}
+a {
+  color: #528CE0;
 }
